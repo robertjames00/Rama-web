@@ -1,0 +1,308 @@
+.root{
+--pertama:var(--pertama)
+--kedua:var(--kedua)
+
+
+
+}
+
+/* ===== GLOBAL ===== */
+body {
+  background-color: #16161a;
+  margin: 0;
+}
+
+.navbar {
+background-color: #606060;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: #16161a;
+}
+
+.navlink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.navlink li a {
+  color: white;
+  font-size: 20px;
+}
+
+.navlink ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* ==== PROFILE SECTION ==== */
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 140px 80px 80px;   
+  gap: 40px;
+}
+
+.profile-text {
+  max-width: 50%;
+}
+
+.profile-text h4 {
+  color: #ff5f5f;
+  font-size: 14px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.profile-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #fffffe;
+  margin-bottom: 20px;
+}
+
+.profile-text p {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-learn {
+  background: #ff5f5f;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-hire {
+  padding: 12px 32px;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.profile-image img {
+  width: 380px;  
+  height: auto;
+}
+
+
+
+/* ===== HEADER ===== */
+.skills {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 20px;
+  font-weight:bold;
+  color: #000000;
+}
+
+
+/* ===== PROFILE ===== */
+.profile{
+  margin:20px;
+  padding:25px;
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  gap:20px;
+
+}
+.profile img{
+  width:90px;
+  height:90px;
+  border-radius:50%;
+}
+
+/* ===== SKILLS ===== */
+.skills{
+  margin:20px;
+  padding:25px;
+  border-radius:12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fffffe;
+
+}
+
+.skill-item{
+  display: flex;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  justify-content: center;
+  transition: all 0.3s ease;
+    width: 100%;
+  max-width: 500px;
+}
+
+.skills-icons{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+    margin-top:20px;
+}
+
+.skill-item img{
+  width: 40%;
+  height: auto;
+
+}
+
+.skill-item:hover{
+  transform: scale(1.05);
+}
+
+.skill-h2{
+  text-align: center;
+}
+
+
+/* ===== PROJECTS ===== */
+.project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  color: #fffffe;
+}
+
+.projects h2 {
+  text-align: center;
+  color: #fffffe;
+}
+
+.projects-item:hover{
+transform: scale(1.05);
+}
+
+.projects-item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.projects-item img {
+  width: 150px;       
+  height: 150px;      
+  object-fit: cover; 
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  background: white;
+}
+
+
+
+
+/* ===== CONTACT ===== */
+#contact{
+  margin:20px;
+  padding:25px;
+  border-radius:12px;
+  color: #ffffff;
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  width:80%;
+  margin:auto;
+}
+
+input, textarea{
+  border-radius:5px;
+  border:none;
+  padding:12px;
+  background:#fff;
+}
+textarea{
+  height:120px;
+}
+
+.tombol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tombol svg{
+  width: 15px;
+  height: 20px;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  padding:20px;
+  margin-top:20px;
+  background-color: #ffffff;
+}
+.icons{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+}
+.icons img{
+  width:26px;
+}
+
+/* --- Tombol Kirim --- */
+button {
+  background-color: #fbfbfb;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;      
+  justify-content: center; 
+  gap: 8px;                
+  transition:all 0.3s ease;
+}
+
+button:hover {
+  background-color: #cbbadb;
+}
+
+button i {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
