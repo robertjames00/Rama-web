@@ -264,7 +264,7 @@ textarea{
   height: 20px;
 }
 
-/* ===== FOOTER ===== */
+/*  FOOTER  */
 footer{
   padding:20px;
   margin-top:20px;
@@ -279,7 +279,7 @@ footer{
   width:26px;
 }
 
-/* --- Tombol Kirim --- */
+/*  Tombol Kirim  */
 button {
   background-color: #fbfbfb;
   border: none;
@@ -321,18 +321,11 @@ button i {
     max-width: 100%;
   }
 
-  .profile-image img {
+  .profile-image {
     width: 280px;
+    border-radius: 400px;
   }
 
-  .profile-item img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;   
-  border-radius: 50%;  
-  margin-top: 10px;
- 
-  }
 
   /* Projects */
   .project-container {
