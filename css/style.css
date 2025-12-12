@@ -306,3 +306,117 @@ button i {
   align-items: center;
   justify-content: center;
 }
+
+/* RESPONSIVE DESIGN  */
+
+@media (max-width: 992px) {
+
+  /* Profile */
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-text {
+    max-width: 100%;
+  }
+
+  .profile-image img {
+    width: 280px;
+  }
+
+  .profile-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;   
+  border-radius: 50%;  
+  margin-top: 10px;
+ 
+  }
+
+  /* Projects */
+  .project-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+
+/* Mobile (max 768px)  */
+@media (max-width: 768px) {
+
+  
+  .navlink {
+    padding: 10px 20px;
+  }
+
+  .navlink ul {
+    gap: 20px;
+  }
+
+  /* Profile section */
+  .profile {
+    padding: 130px 20px 60px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .profile-text h1 {
+    font-size: 34px;
+  }
+
+  .profile-text p {
+    font-size: 15px;
+  }
+
+  .profile-image img {
+    width: 220px;
+  }
+
+  /* Skills */
+  .skills-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skill-item {
+    max-width: 90%;
+  }
+
+  /* Projects */
+  .project-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .projects-item img {
+    width: 160px;
+    height: 160px;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
+
+/*  Extra Small (max 480px)  */
+@media (max-width: 480px) {
+
+  .profile-text h1 {
+    font-size: 28px;
+  }
+
+  .profile-image img {
+    width: 170px;
+  }
+
+  .projects-item img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .skill-item {
+    padding: 15px;
+  }
+}
